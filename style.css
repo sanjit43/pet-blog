@@ -1,0 +1,202 @@
+body{
+    margin: 10px;
+    padding: 5px;
+}
+
+h1{
+    font-size: 4rem;
+    text-align: center;
+    color: grey;
+}
+
+.orange-text{
+    color: orange;
+}
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 50px;
+}
+
+.main-logo img{
+    width: 150px;
+}
+
+.first-menu ul{
+     list-style-type: none;
+     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.first-menu ul li{
+    padding: 10px;
+    font-weight: 900;
+
+}
+
+.menu-bar-two ul li{
+    font-weight: normal;
+    color: gray;
+}
+
+.button-click button{
+    background-color: blue;
+    color: white;
+    padding: 15px 30px;
+    font-weight: 900;
+}
+
+a{
+    text-decoration: none; /* nav bar create */
+}
+
+
+
+.zip-bar{
+    background-image: url(images/image-one.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    object-fit: cover;
+}
+
+.zip-bar-half{
+    width:fit-content;
+    border: 2px solid lightblue;
+    margin: auto;
+
+}
+
+.zip-code{
+    padding: 30px 40px;
+}
+
+.zip-code label{
+    padding-right: 5px;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: gray;
+}
+
+.zip-code input{
+    padding-right: 10px;
+}
+
+.zip-code button{
+    background-color: orange;
+    padding: 5px 20px;
+    color: white;
+    margin-left: 5px;
+}
+
+hr{
+    margin-top: 2%;
+    border: 1px solid salmon;
+    width: 10%;  /*Zip code complete*/
+}
+
+.section-one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.half-width{
+    width: 50%;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.half-width button{
+    background-color: blue;
+    color: white;
+    padding: 10px 30px; /*Section one completed*/
+}
+
+
+.section-two{
+    background-image: url(images/image-two.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-two-text{
+    width: 300px;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.section-two-text p{
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.section-two h2{
+    color: lightcoral;
+    margin-left: 5%;
+}
+
+.section-two ul{
+    list-style-type: disc;
+    padding-left: 5%;
+}
+
+ul li{
+    padding: 10px;
+}
+
+.section-two button{
+    background-color: lightsalmon;
+    margin-left: 5%;
+    padding: 20px 40px;
+    color: white;
+    font-size: 1.5em;
+    margin-bottom: 3%; /*section two complete*/
+}
+
+.review-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.review-half{
+    width: 300px;
+    text-align: center;
+}
+
+.reviews-button{
+    background-color: lightseagreen;
+    color: white;
+    font-size: 1.5rem;
+    padding: 20px 40px;
+    margin-left: 40%;
+    margin-top: 3%; /*Review Section done*/
+}
+
+footer{
+    background-color: violet;
+    height: 150px;
+}
+
+.nav-bar ul{
+    display:flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    font-size: 1.2rem;
+    padding-top: 2%;
+    
+}
+
+.copy-item{
+    text-align: center;
+    color: white;
+}
